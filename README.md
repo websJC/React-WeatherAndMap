@@ -1,3 +1,5 @@
+## React +  OpenWeatherMap Api + OpenStreetMaps Api
+![Alt text](public/CapturaElTiempo.PNG?raw=true "React +  OpenWeatherMap Api + OpenStreetMaps Api")
 ## IMPORTANTE
 
 Necesitas tener una cuenta en [OpenWeatherMaps](https://openweathermap.org/api) para usar tu API KEY
