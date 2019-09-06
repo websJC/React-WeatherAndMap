@@ -1,3 +1,11 @@
+## IMPORTANTE
+
+Necesitas tener una cuenta en [OpenWeatherMaps](https://openweathermap.org/api) para usar tu API KEY
+
+Debes añadirla en el archivo src/App.js en la línea 20.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
