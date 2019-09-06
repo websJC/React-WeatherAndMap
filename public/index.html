@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#ff6600">
+    <meta property="og:title" content="Weather App con React y Hooks by WebsJC" />
+    <meta name="title" content="Weather App con React y Hooks by WebsJC" />
+    <meta property="og:description" content="Weather App con React y Hooks by WebsJC. Ejemplo de webapp del tiempo usando React y React Hooks by WebsJC" />
+    <meta name="description" content="Weather App con React y Hooks by WebsJC. Ejemplo de webapp del tiempo usando React y React Hooks by WebsJC" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="%PUBLIC_URL%" />
+<meta property="og:image" content="%PUBLIC_URL%/CapturaElTiempo.PNG" />
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Weather App y con React y Hooks by WebsJC </title>
+  </head>
+  <body>
+    <noscript>
+      Es necesario activar JavaScript para poder usarlo.
+    </noscript>
+    <div id="root"></div>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"  
+    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" 
+    crossorigin=""/>
+    <!-- LeafLet CSS -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/> -->
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+ integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+ crossorigin=""></script>
+ 
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      var elementos = document.querySelectorAll('select');
+     M.FormSelect.init(elementos);
+  });
+</script>
+
+            
+  </body>
+</html>
